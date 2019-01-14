@@ -1,0 +1,381 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.background2 {
+  height:auto;
+  background-image: url(war.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.wordleft {
+  text-align:left;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+h2 {
+  font-size:30px
+}
+
+.fontchange {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-weight: 400;
+}
+
+button {
+	cursor: hand;
+	background-color: rgb(255,192,192);
+	color: white;
+	font:weight: 900;
+	font-size: 0.25;
+	border: none;
+	padding:1em 3em;
+	margin right: 10em
+	display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+	background: rgb(128,128,128);
+	transform: scale(1.5) rotateX(30deg);
+}
+
+
+.Iagree {
+    display: none;
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+button:hover .Iagree{
+  display:block;
+}
+
+.Idisagree {
+    display: none;
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+button:hover .Idisagree{
+  display:block;
+}
+
+
+
+
+
+.nomorewar {
+  width:80%;
+  margin:2rem auto;
+  font-size: 50px;
+  text-align:center;
+  perspective: 800px;
+  text-transform:uppercase;
+  font-family: 'ZCOOL KuaiLe', cursive;
+ }
+
+
+span {
+   display:inline-block;
+   margin-left:
+   color:#77c6bc;
+   transform-origin: 50% 80%
+}
+
+span:nth-child(2n) {
+  color:#95b8cb;
+}
+
+
+span:nth-child(1) {
+animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) both;
+animation-iteration-count: infinite;
+}
+
+span:nth-child(2) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) .2s both;
+  animation-iteration-count: infinite;
+}
+
+span:nth-child(3) {
+
+}
+
+span:nth-child(4) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) .4s both;
+  animation-iteration-count: infinite;
+}
+
+span:nth-child(5) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) .6s both;
+  animation-iteration-count: infinite;
+ }
+
+span:nth-child(6) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) 0.8s both;
+  animation-iteration-count: infinite;
+}
+
+span:nth-child(7) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) 1s both;
+  animation-iteration-count: infinite;
+}
+
+span:nth-child(8) {
+
+}
+
+span:nth-child(9) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) 1.2s both;
+  animation-iteration-count: infinite;
+}
+
+span:nth-child(10) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) 1.4s both;
+  animation-iteration-count: infinite;
+}
+
+span:nth-child(11) {
+  animation:flipup 1.5s cubic-bezier(0.68, 0.55, 0.26, 1.55) 1.6s both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flipup {
+  from {transform:rotatex(90deg)}
+  to {transform: rotateX(0deg);}
+}
+
+
+
+
+
+
+
+.blackbackground {
+  height:auto;
+  background-image: url(nowar2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+#audio {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.IagreeH1 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: #367caf;
+  z-index: 200px;
+}
+
+.backgroundword {
+  position:absolute;
+  font-size: 32px;
+  z-index: -1px;
+  margin-top: -100px;
+  color: rgb(128, 128, 128);
+}
+
+.love {
+  top:200px;
+  position:relative;
+  z-index: 1px;
+  animation: drift 15s linear infinite, fadein 15s infinite;
+}
+
+.home {
+  top:-50px;
+  left:-200px;
+  position:relative;
+  animation: drift 20s 3s linear infinite, fadein 20s 3s infinite;
+}
+
+.friend {
+  top:100px;
+  left:-200px;
+  position:relative;
+  animation: drift 25s 5s linear infinite, fadein 25s 5s infinite;
+}
+
+.relationship {
+top:100px;
+left:-200px;
+position:relative;
+animation: drift 30s 5s linear infinite, fadein 30s 5s infinite;
+}
+
+.family {
+top:100px;
+left:-200px;
+position:relative;
+animation: drift 10s 5s linear infinite, fadein 10s 5s infinite;
+}
+
+.future {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 17s 2s linear infinite, fadein 17s 2s infinite;
+}
+
+.education {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 18s 1s linear infinite, fadein 18s 1s infinite;
+}
+
+.hope {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 12s 4s linear infinite, fadein 12s 4s infinite;
+}
+
+.children {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 9s 4s linear infinite, fadein 9s 4s infinite;
+}
+
+.freedom {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 11s 4s linear infinite, fadein 11s 4s infinite;
+}
+
+.noterror {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 13s 2s linear infinite, fadein 13s 2s infinite;
+}
+
+.order {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 20s 3s linear infinite, fadein 20s 3s infinite;
+}
+
+.goodwill {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 16s 3s linear infinite, fadein 16s 3s infinite;
+}
+
+.smile {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 8s 7s linear infinite, fadein 8s 7s infinite;
+}
+
+.safe {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 14s 2s linear infinite, fadein 14s 2s infinite;
+}
+
+.happiness {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 18s 4s linear infinite, fadein 18s 4s infinite;
+}
+
+.society {
+top:-50px;
+left:-200px;
+position:relative;
+animation: drift 12s 5s linear infinite, fadein 12s 5s infinite;
+}
+
+.liberty {
+top:50px;
+left:-200px;
+position:relative;
+animation: drift 19s 3s linear infinite, fadein 19s 3s infinite;
+}
+
+.country {
+top:-50px;
+left:-200px;
+position:relative;
+animation: drift 14s 2s linear infinite, fadein 14s 2s infinite;
+}
+
+.peace {
+top:-50px;
+left:-200px;
+position:relative;
+animation: drift 17s 4s linear infinite, fadein 17s 4s infinite;
+}
+
+.IagreeP {
+  margin-top: 80px;
+  text-align: center;
+  color: #367caf;
+  z-index: 200px;
+  font-size: 15.5px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 550;
+}
+
+em {
+  font-size: 30px;
+  color: #c86b25;
+}
+
+@keyframes drift {
+  0%{transform: translatex(0px);}
+  25% {transform: translateX(960px);}
+  50% {transform: translateX(1920px);}
+  75% {transform: translateX(960px);}
+  100%{transform: translatex(0px);}
+}
+
+@keyframes fadein {
+  0% {opacity: 0;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  75% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.sticker {
+  width: 200px;
+  height: 200px;
+  position:relative;
+  background: url(music.png) no-repeat;
+  animation: spin 10s linear infinite
+}
+
+@keyframes spin {
+  100%{transform: rotate(1turn);}
+}
